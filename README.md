@@ -81,3 +81,56 @@ namespace EvenOrOdd
     }
 }
 ```
+# Program for Multiple of 3 and 5 and should print Three and Five instead
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _35Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 1; i <= 250; i++)
+            {
+
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("ThreeFive");
+                }
+
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Five");
+                }
+
+
+                else if (i % 3 == 0)
+                {
+
+
+                    Console.WriteLine("Three");
+                }
+
+                else
+                {
+
+
+
+                    Console.WriteLine(i);
+                }
+                        
+                
+            }
+            Console.ReadLine();
+
+        }
+
+        
+        }
+}
+```
