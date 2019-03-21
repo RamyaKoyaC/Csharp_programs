@@ -159,3 +159,26 @@ public static void Main()
   }
 }
 ```
+# Fibonacci Series
+
+```
+using System;
+namespace test
+{
+public static void fibo(int m)
+{
+ int a=0, b=1,c=0;
+ Console.WriteLine("{0} {0}",a,b);
+ for(int i=2; i<m; i++)
+ {
+ c=a+b;
+ Console.WriteLine(c);
+ b=c;
+ a=b;
+ }
+ 
+ public static void Main()
+ {
+   fibo(5);
+ }
+ ```
