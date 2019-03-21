@@ -138,8 +138,12 @@ namespace _35Test
 
 ```
 using System;
-namespace test
+namespace now 
 {
+	
+public class Program
+{
+	
 public static bool prime(int m)
 {
    for (int i=2;i<m;i++)
@@ -158,6 +162,8 @@ public static void Main()
    Console.ReadLine();
   }
 }
+}
+
 ```
 # Fibonacci Series
 
