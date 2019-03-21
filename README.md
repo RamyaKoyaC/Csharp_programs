@@ -134,3 +134,28 @@ namespace _35Test
         }
 }
 ```
+Prime Number
+
+```
+using System;
+namespace test
+{
+public static bool prime(int m)
+{
+   for (int i=2;i<m;i++)
+   {
+        if (m%i==0)
+        {
+        return false ;
+        }
+   }
+return true;
+}
+
+public static void Main()
+  {
+   Console.WriteLine(prime(6));
+   Console.ReadLine();
+  }
+}
+```
