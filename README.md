@@ -188,3 +188,23 @@ public static void fibo(int m)
    fibo(5);
  }
  ```
+
+Welcome Dallas and Time Display 
+
+```
+using System;
+namespace Practice1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var city = "Dallas";
+            var date = DateTime.Now;
+            var a= string.Format("Welcome to {0}. The Time Now is {1}.", city, date);
+            Console.WriteLine(a);
+            Console.ReadLine();
+        }
+    }
+}
+```
